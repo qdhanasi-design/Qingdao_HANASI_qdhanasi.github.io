@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANASI - About Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            background-color: darkgrey;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1.5rem;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgrey;
+            border: 1px solid #333;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            width: 100%;
+            min-height: 200px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .grid-item h3 {
+            color: #5c0000;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="HANASI Logo" class="logo">
+            <div class="company-name">H A N A S I</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-intro">
+            <h1>About HANASI</h1>
+            <p>Qingdao Hanasi Environment Equipment Co., Ltd. was founded in 2002, is a collection of environmental protection equipment research and development, design, manufacture, maintenance and sales as one of the modern production enterprises of science and technology, to provide professional engineering consulting, program design, equipment manufacturing, equipment maintenance and transformation of equipment and other precise services.</p>
+        </section>
+
+        <div class="section-spacer"></div>
+
+        <section class="info-section">
+            <div class="section-header">
+                <h2>Our Past Projects</h2>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="image-container">
+                        
+                        <img src="images/project1.jpg" alt="Project 1">
+                    </div>
+                    <h3>270,000 tons/year Ammonium Phosphate Plant Tail Gas Deep Treatment Project</h3>
+                    <p>User: Yunnan Yuntianhua Red Phosphorus Chemical Co.<br>
+                        Flue gas volume: ≤240000m³/h<br>
+                        Dust content of equipment inlet: ≤117mg/m³<br>
+                        Dust content after tail gas treatment: ≤25mg/m³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project2.jpg" alt="Project 2">
+                    </div>
+                    <h3>Ammonium phosphorus plant tail gas deep treatment technology reform project</h3>
+                    <p>User: Yunnan Sanhuan Sinochem Fertilizer Co., Ltd.<br>
+                        Flue gas volume: ≤440000m³/h <br>
+                        Dust content of equipment inlet: ≤200mg/m³<br>
+                        Dust content after tail gas treatment: ≤20mg/m³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project3.jpg" alt="Project 3">
+                    </div>
+                    <h3>Phase I 600,000 tons/year DAP plant tail gas deep treatment project</h3>
+                    <p>User: Yunnan Tianhua Group Yunnan Tianan Chemical Co., Ltd.<br>
+                    Flue gas volume: ≤ 400,000 m³/h<br>
+                    Dust content of equipment inlet: ≤ 128mg/Nm³<br>
+                    Dust content of the tail gas after treatment: ≤ 23mg/Nm³ </p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project4.jpg" alt="Project 4">
+                    </div>
+                    <h3>Copper Smelting Ring Collector Flue Gas Comprehensive Recycling and Utilization Treatment Project</h3>
+                    <p>User: Chuxiong Dianzhong Nonferrous Metals Co., Ltd.<br>
+                        Flue gas volume: 520000m³/h<br> 
+                        Acid mist content of equipment imports: ≤50mg/Nm³</b>
+                        Acid mist content of tail gas after treatment: ≤15mg/Nm³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project5.jpg" alt="Project 5">
+                    </div>
+                    <h3>Multi-functional (heavy calcium) plant exhaust gas deep treatment project</h3>
+                    <p>User: Yunnan Tianan Chemical Co., Ltd. of Yuntianhua Group<br>
+                        Flue gas volume: ≤400000 m³/h<br> 
+                        Dust content of equipment inlet: ≤135mg/Nm³ <br>
+                        Dust content of tail gas after treatment: ≤23mg/Nm³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project6.jpg" alt="Project 6">
+                    </div>
+                    <h3>100,000 tons/year NPK plant A series exhaust gas deep treatment project</h3>
+                    <p>User::Yunnan Yuntianhua Yunfeng Chemical Co., Ltd. <br>
+                        Flue gas volume: 250,000m³/h <br>
+                        Dust content of equipment inlet: ≤100mg/Nm³ <br>
+                        Dust content after tail gas treatment: ≤8mg/Nm³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project7.jpg" alt="Project 7">
+                    </div>
+                    <h3>600,000 tons/year compound fertilizer production unit tail gas treatment project</h3>
+                    <p>User: China-Arab Fertilizer Co., Ltd. <br>
+                        Flue gas volume: 550,000m³/h <br>
+                        Dust content of equipment inlet: ≤120mg/Nm³ <br>
+                        Dust content of tail gas after treatment: ≤10mg/Nm³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project8.jpg" alt="Project 8">
+                    </div>
+                    <h3>Flue Gas Control Project Diammonium B Series Tail Gas Purification Project</h3>
+                    <p>User: Gansu urnfu Chemical Company <br>
+                        Flue gas volume: 340,000m³/h <br>
+                        Dust content in equipment inlet: ≤800mg/Nm³ <br>
+                        Dust content after tail gas treatment: ≤30mg/Nm³</p>
+                </div>
+                <div class="grid-item">
+                    <div class="image-container">
+                        <img src="images/project9.jpg" alt="Project 9">
+                    </div>
+                    <h3>Diammonium phosphate plant B series gas phase control project</h3>
+                    <p>User: Urfu Group Guizhou Urfu Phosphate Fertilizer Plant<br> 
+                        Flue gas volume: 250,000m³/h<br> 
+                        Dust content in equipment inlet: ≤300mg/Nm³<br> 
+                        Dust content after tail gas treatment: ≤30mg/Nm³</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2002 Qingdao HANASI Environment Equipment Co., Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
