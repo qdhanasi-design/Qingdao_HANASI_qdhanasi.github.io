@@ -1,5 +1,4 @@
 /* Reset and Base Styles */
-<link rel="stylesheet" href="style.css">
 * {
     margin: 0;
     padding: 0;
@@ -236,7 +235,6 @@ nav ul li a:hover::after {
     line-height: 1.8;
 }
 
-/* Grid Layout */
 /* Grid Layout - Clean Modern Style */
 .grid-container {
     display: grid;
@@ -367,8 +365,7 @@ footer {
     }
 }
 
-
-
+/* PDF Download Button */
 .pdf-download {
     text-align: center;
     margin: 2rem 0;
@@ -385,6 +382,5 @@ footer {
 }
 
 .download-btn:hover {
-    background-color: #000;
-
+    background-color: #333;
 }
